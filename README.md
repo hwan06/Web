@@ -2,7 +2,7 @@
 #### feat.로그인화면, 회원가입
 
 ### [움직이는 SCP 사이트 꾸미기]
-![image](https://github.com/hwan06/Web/assets/114748934/51f330d7-ceb0-4980-a817-326c89b00bc3)
+![image](https://github.com/hwan06/Web/assets/114748934/261d257f-3a91-4a93-91fe-c0e115ba4c61)
 ### [로그인 화면]
 ![image](https://github.com/hwan06/Web/assets/114748934/84ecb74b-636e-464a-b342-bf7c68c56ccf)
 ### [회원가입 화면]
@@ -284,7 +284,7 @@ h2{
 	width : 995px;
 	border-collapse: collapse;
 	font-size : 1rem;
-	color : #888;
+	color : #000000;
 }
 
 .table tr>th{
@@ -297,7 +297,7 @@ h2{
 }
 
 .table tr:nth-child(2n){
-	background-color: #cccccc;
+	background-color: maroon;
 }
 
 footer{
@@ -310,6 +310,7 @@ footer{
 address{
 	margin : 30px 0 0 50px;
 }
+
 
 
 ```
