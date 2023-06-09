@@ -7,8 +7,6 @@
 ![image](https://github.com/hwan06/Web/assets/114748934/84ecb74b-636e-464a-b342-bf7c68c56ccf)
 ### [회원가입 화면]
 ![image](https://github.com/hwan06/Web/assets/114748934/f965fb98-aee0-4b46-ae85-7f5ee956c954)
-
-* js를 이용하여 동적 사이트를 만듬.
 ### [html 코드]
 ``` html
 <!DOCTYPE html>
