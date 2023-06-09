@@ -6,8 +6,8 @@
 ### [로그인 화면]
 ![image](https://github.com/hwan06/Web/assets/114748934/84ecb74b-636e-464a-b342-bf7c68c56ccf)
 ### [회원가입 화면]
-![image](https://github.com/hwan06/Web/assets/114748934/f965fb98-aee0-4b46-ae85-7f5ee956c954)
-### [html 코드]
+![image](https://github.com/hwan06/Web/assets/114748934/db612a2f-f288-441f-8d24-39d1b7f424ab)
+### [메인 화면 html 코드]
 ``` html
 <!DOCTYPE html>
 <html>
@@ -123,6 +123,107 @@
 </body>
 </html>
 ```
+### [로그인 화면 html 코드]
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>로그인페이지</title>
+</head>
+<body>
+    <form> 
+        <p>ID : <input type = "text" size="20"> </p>
+        <p> Password : <input type = "password" size="30"></p>
+        <p> <input type="submit" value="확인"> <input type="reset" value="취소"></p>
+    </form>
+    
+</body>
+</html>
+```
+### [회원가입 화면 html 코드]
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+body{
+	font-size : 14px;
+	font-family: 돋움;
+}
+
+table{
+	width : 800px;
+	margin : 0 auto;
+}
+
+table, tr, th, td{
+	border : 1px solid #333;
+	border-spacing : 0;
+}
+
+strong{color : red;}
+caption {
+	text-align : right;
+}
+
+th, td{
+	padding : 10px 15px;
+}
+
+span{color : red;}
+
+th{text-align : right;}
+
+#btn{float : right;}
+</style>
+</head>
+<body>
+<form> 
+<table>
+<caption>(*)표시는 <strong> 필수입력</strong> 입니다.</caption>
+<tr>
+	<th><span>*</span>회원유형</th>
+	<td>학생</td>
+</tr>
+<tr>
+	<th><span>*</span>이름(실명)</th>
+	<td>홍길동</td>
+</tr>
+<tr>
+	<th><span>*</span>아이디</th>
+	<td><p><input type = "text" size="20"></p>
+	<p>6~15자의 영문소문자, 숫자만 가능합니다.</p>
+	</td>
+</tr>
+	
+<tr>
+<th><span>*</span>비밀번호</th>
+<td><p><input type = "password" size="20"></p>
+<p>비밀번호는 <strong> 영댜문자, 영소문자, 숫자, 특수문자의 조합</strong> 으로 이루어져야합니다<br>
+- 조합이 2종류 이상인 경우 10자리 이상<br>
+- 조합이 3종류 이상인 경우 8자리 이상 가능합니다.
+</td>
+</tr>
+
+<tr>
+<th><span>*</span>비밀번호 확인</th>
+<td><input type = "password" size="20"></td>
+</tr>
+
+<tr>
+<td colspan = '2'><p>SCP 단체에 가입하시겠습니까?<span id = "btn">
+<input type="submit" value="확인">&nbsp; <input type="reset" value="취소"></span></td>
+
+</tr> 
+</table>
+</form> 
+</body>
+</html>
+```
+
 ### [js 풀코드]
 ``` javascript
 $(".main-menu > li").mouseover(function(){
