@@ -2,7 +2,7 @@
 #### feat.로그인화면, 회원가입
 
 ### [움직이는 SCP 사이트 꾸미기]
-![image](https://github.com/hwan06/Web/assets/114748934/261d257f-3a91-4a93-91fe-c0e115ba4c61)
+![image](https://github.com/hwan06/Web/assets/114748934/def1ed7b-4ee7-473b-99bc-213a76910cd1)
 ### [로그인 화면]
 ![image](https://github.com/hwan06/Web/assets/114748934/84ecb74b-636e-464a-b342-bf7c68c56ccf)
 ### [회원가입 화면]
@@ -21,44 +21,56 @@
 <body>
 <div id = "page">
 	<header>
+		
+		<div class = "login1">
+			<ul class = "login" >
+		 		<li onclick="winOpen1()"><a href = "#">로그인</a>
+ 				<li onclick="winOpen2()"><a href = "#">회원가입</a>
+		 </ul> 
+		
+		</div>
 		<div id = "logo">
-			<img src = "imgs/logo.png" alt="style size" style="width:250px; height:100px">
+			 
+			<img src = "imgs/logo.png" alt="style size" style="width:100px; height:100px">
 		 </div>
-		 
+		
+		
 		 <div id = "top">
 		 	<ul class = "main-menu">
 	 			<li>
- 					<a href = "#">SCP소개</a>
+ 					<a href = "#">집들이</a>
  						<ul class = "sub">
- 							<li><a href = "#">SCP란?</a>
- 							<li><a href = "#">SCP의 유래</a>
- 							<li><a href = "#">SCP등급</a>
- 							<li><a href = "#">SCP</a>
+ 							<li><a href = "#">주거형태</a>
+ 							<li><a href = "#">세부공사</a>
+ 							<li><a href = "#">가족형태</a>
+ 							<li><a href = "#">스타일</a>
  						</ul> 
 		 			</li>
 		 			<li>
- 					<a href = "#">위험도</a>
+ 					<a href = "#">집사진</a>
  						<ul class = "sub">
- 							<li><a href = "#">안전(Safe)</a>
- 							<li><a href = "#">유클리드(Euclid)</a>
- 							<li><a href = "#">케테르(Keter)</a>
- 							<li><a href = "#">타우미엘(Thaumiel)</a>
+ 							<li><a href = "#"># 아늑한</a>
+ 							<li><a href = "#"># 개방적인</a>
+ 							<li><a href = "#"># 대가족</a>
+ 							<li><a href = "#"># 쾌적함</a>
  						</ul> 
 		 			</li>
 		 			<li>
- 					<a href = "#">SCP시리즈</a>
+ 					<a href = "#">쇼핑</a>
  						<ul class = "sub">
- 							<li><a href = "#">시리즈ⅰ</a>
- 							<li><a href = "#">시리즈ⅱ</a>
- 							<li><a href = "#">시리즈ⅲ</a>
- 							<li><a href = "#">시리즈ⅳ</a>
+ 							<li><a href = "#">BEST</a>
+ 							<li><a href = "#">프리미엄</a>
+ 							<li><a href = "#">가구세일</a>
+ 							<li><a href = "#">선착순특가</a>
  						</ul> 
 		 			</li>
 		 			<li>
- 					<a href = "#">계정 생성</a>
+ 					<a href = "#">커뮤니티</a>
  						<ul class = "sub">
- 							<li onclick="winOpen1()"><a href = "#">로그인</a>
- 							<li onclick="winOpen2()"><a href = "#">회원가입</a>
+ 							<li><a href = "#">생활꿀팁</a>
+ 							<li><a href = "#">취미일상</a>
+ 							<li><a href = "#">자랑하기</a>
+ 							
  						</ul> 
 		 			</li>
 		 	</ul>
@@ -68,12 +80,13 @@
 	
 	<section>
 			<div class = "imgs">
-				<img src = "imgs/다운로드.jpg">
-				<img src = "imgs/main_img2.jpg">
-				<img src = "imgs/main_img3.jpg">
-				<img src = "imgs/logo.png">  
+				<img src = "imgs/다운로드.jpg" alt="style size" style="width:1000px; height:500px">
+				<img src = "imgs/다운로드2.jfif" alt="style size" style="width:1000px; height:500px">
+				<img src = "imgs/다운로드3.png" alt="style size" style="width:1000px; height:500px">
+				<img src = "imgs/다운로드4.jpg" alt="style size" style="width:1000px; height:500px">
+				 
 				<div class = "welcome">
-					<h2><span>SCP단체에 오신 것을 환영합니다.</span></h2>
+					<h2><span>홈즈! 구해줘에 오신 것을 환영합니다.</span></h2>
 				</div>
 			</div>	
 	</section>
@@ -83,28 +96,28 @@
 				<h2>공지사항</h2>
 				<table class = "table">
 				<tr>
-					<th>내용</th>
+					<th>이벤트</th>
 					<th>날짜</th>
 				</tr>
 				<tr>
-					<td><a href = "#">SCP 사진 모음</a>
+					<td><a href = "#">내가 바로 수납왕!</a>
 					<td>2022-06-01</td>
 				</tr>
 				<tr>
-					<td><a href = "#">실험 결과 확인</a>
+					<td><a href = "#">생활의 달인</a>
 					<td>2022-08-01</td>
 				</tr>
 				<tr>
-					<td><a href = "#">사건/사고</a>
+					<td><a href = "#">인테리어 공모전</a>
 					<td>2022-10-01</td>
 				</tr>
 				<tr>
-					<td><a href = "#">격리 현황</a>
-					<td>2022-11-01</td>
+					<td><a href = "#">반려동물 콘테스트</a>
+					<td>2022-11-11</td>
 				</tr>
 				<tr>
-					<td><a href = "#">건의사항</a>
-					<td>2022-12-01</td>
+					<td><a href = "#">겨울 필수템 콘테스트</a>
+					<td>2022-12-25</td>
 				</tr>
 				</table>
 			
@@ -113,7 +126,7 @@
 		 
 		<footer>
 		<div id = "address" align = "center">
-			<img src = "imgs/address.png" alt="style size" style="width:250px; height:100px"> 
+			<img src = "imgs/address.png" alt="style size" style="width:400px; height:50px"> 
 		</div>
 		</footer>
 </div>
@@ -279,19 +292,20 @@ li{
 
 
 #logo{
-	float : left;
-	margin-top : 20px;
-	}
+	float : left; margin-left: 50px;
+	margin-top : 30px;
+	} 
 #page{
-	width : 995px;
+	width : 995px; 
+	
 	margin : 0 auto;
 }
 
 header{
 	width : 995px;
-	height : 120px;
-	margin-top : 10px;
-	border : solid 1px #cccccc;
+	height : 150px;
+	margin-top : 30px;
+	border : solid 1px #000000;
 }
 
 #top{
@@ -302,21 +316,22 @@ header{
 .main-menu{
 	width : 600px;
 	height : 40px;
-	margin-top : 10px;
-	background-color: maroon;
+	margin-top : 15px;
+	margin-right : 150px;
+	background-color: #66B2FF;
 	line-height : 40px;
-	color : white;
+	color : #404040;
 }
 
 .main-menu li{
 	float :left;
 	width : 150px;
-	text-align : center;
+	text-align : center; 
 	
 }
 .main-menu li:hover{
-	color :blueviolet;
-	background-color: white;
+	color : #FF6666;
+	background-color: black;
 }
 
 .sub {
@@ -368,7 +383,7 @@ section{
 	top: 50%;
 }
 span{
-	color: #FF0000; 
+	color: #FFFF99; 
 }
 
 .notice{
@@ -385,7 +400,7 @@ h2{
 	width : 995px;
 	border-collapse: collapse;
 	font-size : 1rem;
-	color : #000000;
+	color : #888;
 }
 
 .table tr>th{
@@ -398,7 +413,7 @@ h2{
 }
 
 .table tr:nth-child(2n){
-	background-color: maroon;
+	background-color: #cccccc;
 }
 
 footer{
@@ -412,6 +427,15 @@ address{
 	margin : 30px 0 0 50px;
 }
 
+.login{
+	float : right;
+	color : #808080;
+}
 
+.login1 li {
+	display: inline-block;
+	margin-right : 15px;
+	
+}
 
 ```
