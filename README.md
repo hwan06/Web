@@ -1,7 +1,7 @@
 ## 오늘은 html, css, js를 이용하여 움직이는 웹사이트 만들기
 #### feat.로그인화면, 회원가입
 
-### [움직이는 SCP 사이트 꾸미기]
+### [움직이는 사이트 꾸미기]
 ![image](https://github.com/hwan06/Web/assets/114748934/def1ed7b-4ee7-473b-99bc-213a76910cd1)
 ### [로그인 화면]
 ![image](https://github.com/hwan06/Web/assets/114748934/84ecb74b-636e-464a-b342-bf7c68c56ccf)
