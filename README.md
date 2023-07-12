@@ -18,6 +18,7 @@ $(".main-menu > li").mouseleave(function(){
 	$(this).children(".sub").stop().slideUp();
 });
 ```
+#### 마우스를 올려둘 때, 안올려둘 때 메뉴바 표시, 메뉴바 숨기기
 ---
 ### [사진 바꾸는 js 코드]
 ``` js
@@ -42,9 +43,8 @@ function winOpen1(){
 function winOpen2(){
 	var win2 = window.open('user.html','child2','toolbar = no, location = no, status = no, menubar = no, resizable = no, scrollbars = no, width = 1850, height = 1700')
 }
----  
 ```
-
+---
 ### [현재 시각 js 코드]
 ``` js
 const todayDiv = document.getElementById("notice");
