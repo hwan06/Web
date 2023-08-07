@@ -6,7 +6,8 @@
 ### [로그인 화면]
 ![image](https://github.com/hwan06/Web/assets/114748934/84ecb74b-636e-464a-b342-bf7c68c56ccf)
 ### [회원가입 화면]
-![image](https://github.com/hwan06/Web/assets/114748934/3771f40a-75b9-4a39-ab12-a4368ee6b684)
+![image](https://github.com/hwan06/Web/assets/114748934/e4645add-4df5-4a7e-8cb2-932e83c785dd)
+
 
 ### [메뉴바 js 코드]
 ``` js
